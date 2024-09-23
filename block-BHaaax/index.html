@@ -6,66 +6,38 @@
 2. Inside the header keep the brand name to the left and all the navigation to the right.
 
 3. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image. -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Blog Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Positioning Content</title>
   </head>
   <body>
     <header>
-      <div class="brand-name">
-        <h1>Cadbury</h1>
+      <div class="logo">
+        <p>LOGO</p>
       </div>
-      <div class="nav-bar">
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+      </nav>
     </header>
     <main>
-      <article class="blog">
-        <div class="box-1">
-          <h2>Our Story</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            earum, ex voluptates maiores non necessitatibus alias architecto
-            maxime, distinctio reprehenderit neque! Nulla nostrum repudiandae
-            quas illo accusamus sed facilis debitis repellendus esse quaerat
-            molestias, blanditiis consequuntur aperiam facere, quam ducimus
-            dicta odio voluptas. Id dignissimos fugit quo aspernatur mollitia
-            obcaecati, sequi, fugiat tenetur expedita sapiente libero, in facere
-            delectus minus nesciunt recusandae ratione assumenda incidunt
-            aperiam commodi. Inventore voluptatum dolor blanditiis dignissimos
-            tempore. Maiores veritatis voluptatibus dolorem nostrum dignissimos
-            recusandae architecto unde sed, laboriosam, autem eligendi, vitae
-            quia in accusantium dolore! Ducimus veniam laborum perferendis,
-            tenetur porro consectetur harum possimus.
-          </p>
-        </div>
-        <div class="box-2">
-          <img
-            src="/block-BHaaax/images/Cadbury-inventor-og-image.jpeg"
-            alt="Cadbury-chocolate"
-          />
-        </div>
+      <article class="story">
+        <h2>This wonderfull!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusantium fugiat itaque reprehenderit, amet dolorem suscipit tempore quos, dolore quam assumenda qui tenetur culpa voluptatum laboriosam provident iure error quibusdam!uscipit tempore quos, dolore quam assumenda qui tenetur culpa voluptatum laboriosam provident iure error quibusdam!uscipit tempore quos, dolore quam assumenda qui tenetur culpa voluptatum laboriosam provident iure error quibusdam!uscipit tempore quos, dolore quam assumenda qui tenetur culpa voluptatum laboriosam provident iure error quibusdam! Lorem, ipsum dolor.</p>
       </article>
+      <img src="./images/Cadbury-inventor-og-image.jpeg" alt="" />
     </main>
     <footer>
-      <h3>Contact Us</h3>
-      <nav class="contact">
-        <a href="twitter.com/CadburyUK"
-          ><img src="images/twitter-logo.png" alt="twitter"
-        /></a>
-        <a href="https://www.instagram.com/cadburyuk/?hl=en"
-          ><img src="images/insta-logo.png" alt="instagram"
-        /></a>
+      <div class="copy">@ All rights reserved</div>
+      <nav class="links">
+        <a href="#">Twitwer</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
       </nav>
     </footer>
   </body>

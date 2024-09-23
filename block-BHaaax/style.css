@@ -115,7 +115,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -125,73 +125,75 @@ table {
 
 /*Custom Style*/
 
-* {
+body {
   box-sizing: border-box;
 }
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-}
-header,
-footer {
-  background-color: #2a0a49;
-  color: white;
-  padding: 20px 80px;
-  font-size: 0;
-}
-a {
-  text-decoration: none;
-  color: white;
-  padding: 0 10px;
-}
-.brand-name {
-  display: inline-block;
-  width: 30%;
-  font-size: 35px;
-  font-weight: bolder;
-}
-.nav-bar {
-  display: inline-block;
-  width: 65%;
-  font-size: 20px;
-  text-align: right;
+header {
+  background-color: #16423c;
+  height: 100px;
+  padding-top: 20px;
 }
 main {
-  background-color: #644192;
-}
-.blog {
+  background-color: #6a9c89;
   font-size: 0;
-  margin: 0 5%;
-  padding: 50px;
+}
+footer {
+  background-color: #16423c;
+  height: 100px;
+  padding-top: 20px;
+  font-size: 24px;
+  
+}
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  width: 30%;
+  background-color: antiquewhite;
+  padding: 0px;
+}
+.navigation {
+  height: 100%;
+  display: inline-block;
+  width: 69%;
+  text-align: right;
+}
+.navigation a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.story {
+  font-size: 24px;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  line-height: 1.5;
+  padding:10px;
+  box-sizing: border-box;
+}
+img {
+  width: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+.story h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  /* display: inline-block; */
+}
+
+.copy {
+  display: inline-block;
+  width: 40%;
   color: white;
 }
-.box-1 {
+.links{
   display: inline-block;
-  width: 50%;
-  font-size: 16px;
-}
-h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.box-2 img {
-  width: 400px;
-}
-.box-2 {
-  display: inline-block;
-  width: 50%;
-  text-align: right;
-  vertical-align: baseline;
-}
-h3 {
-  display: inline-block;
-  width: 50%;
-  font-size: 20px;
-}
-.contact {
-  display: inline-block;
-  width: 50%;
-  text-align: right;
-  vertical-align: middle;
+  width:59%
 }
